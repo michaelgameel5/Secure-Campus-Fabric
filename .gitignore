@@ -1,0 +1,5 @@
+venv/
+configs/wireguard/*_private.key
+*.pcap
+__pycache__/
+*.pyc

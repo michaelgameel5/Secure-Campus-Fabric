@@ -1,0 +1,29 @@
+Compliance Report — 2026-04-25 06:22:34.883643
+==================================================
+
+── Branch-Alpha (ns_branch1) ──
+  [ALLOWED]  192.168.0.10:443          PASS ✓
+  [ALLOWED]  192.168.0.20:514          PASS ✓
+  [ALLOWED]  192.168.0.30:123          PASS ✓
+  [BLOCKED]  192.168.0.99:22           PASS ✓
+  [BLOCKED]  192.168.0.99:3389         PASS ✓
+  [BLOCKED]  8.8.8.8:53                PASS ✓
+
+── Branch-Beta (ns_branch2) ──
+  [ALLOWED]  192.168.0.10:443          PASS ✓
+  [ALLOWED]  192.168.0.20:514          PASS ✓
+  [ALLOWED]  192.168.0.30:123          PASS ✓
+  [BLOCKED]  192.168.0.99:22           PASS ✓
+  [BLOCKED]  192.168.0.99:3389         PASS ✓
+  [BLOCKED]  8.8.8.8:53                PASS ✓
+
+── Branch-Gamma (ns_branch3) ──
+  [ALLOWED]  192.168.0.10:443          PASS ✓
+  [ALLOWED]  192.168.0.20:514          PASS ✓
+  [ALLOWED]  192.168.0.30:123          PASS ✓
+  [BLOCKED]  192.168.0.99:22           PASS ✓
+  [BLOCKED]  192.168.0.99:3389         PASS ✓
+  [BLOCKED]  8.8.8.8:53                PASS ✓
+
+==================================================
+Result: COMPLIANT ✓

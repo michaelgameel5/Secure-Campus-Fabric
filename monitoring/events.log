@@ -1,0 +1,6 @@
+[2026-04-25 06:14:48] FAILOVER  branch1 → HQ UNREACHABLE — failover triggered!
+[2026-04-25 06:14:50] FAILOVER  branch2 → HQ UNREACHABLE — failover triggered!
+[2026-04-25 06:14:52] FAILOVER  branch3 → HQ UNREACHABLE — failover triggered!
+[2026-04-25 06:16:35] FAILOVER  branch1 → HQ UNREACHABLE — failover triggered!
+[2026-04-25 06:16:37] FAILOVER  branch2 → HQ UNREACHABLE — failover triggered!
+[2026-04-25 06:16:39] FAILOVER  branch3 → HQ UNREACHABLE — failover triggered!
