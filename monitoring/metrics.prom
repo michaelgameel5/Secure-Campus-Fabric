@@ -1,4 +1,4 @@
-# Updated 2026-04-25 06:35:10.760329
+# Updated 2026-04-25 06:35:43.178998
 tunnel_up{branch="branch1"} 0
 tunnel_latency_ms{branch="branch1"} -1
 tunnel_up{branch="branch2"} 0
