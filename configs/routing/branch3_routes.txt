@@ -1,3 +1,2 @@
 default via 172.16.3.1 dev veth_b3 
 172.16.3.0/30 dev veth_b3 proto kernel scope link src 172.16.3.2 
-192.168.0.0/24 via 172.16.3.1 dev veth_b3 

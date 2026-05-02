@@ -1,2 +1,0 @@
-default via 172.16.4.1 dev veth_branch4 
-172.16.4.0/30 dev veth_branch4 proto kernel scope link src 172.16.4.2 

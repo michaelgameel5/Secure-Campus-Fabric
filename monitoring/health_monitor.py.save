@@ -29,20 +29,19 @@ def log_event(msg):
 def monitor():
     with open(INVENTORY) as f:
         inv = yaml.safe_load(f)
-    hq_ip = inv['hq']['vpn_ip']
+    hq_ip = none
     prev_state = {}
 
-    print("[*] Starting Prometheus metrics server on port 8001...")
-    start_http_server(8001)
+    print("[*] Starting Prometheus metrics server on port 8000...")
+    start_http_server(8000)
     print("[*] Health monitor started — polling every 10s")
-    print("[*] Metrics available at http://localhost:8001")
+    print("[*] Metrics available at http://localhost:8000")
 
     while True:
         for branch in inv['branches']:
             ns  = branch['namespace']
             bid = branch['id']
-            hq_link_ip = branch['link_ip_hq'].split('/')[0]
-            latency = ping(ns, hq_link_ip)
+            hq_link_ip = branch['link_ip_hq'].split('/')[0latency = ping(ns, hq_link_ip)
 
             if latency is not None:
                 tunnel_up.labels(branch=bid).set(1)
